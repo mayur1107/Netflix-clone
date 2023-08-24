@@ -260,6 +260,30 @@ i {
     body {
         background: #000;
     }
+    
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: auto;
+    }
+
+    div.foot-container {
+        margin: 0;
+        padding: 0 0 0 0;
+    }
+
+    
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    li {
+        font-size: 13px;
+        max-width: 160px;
+    }
+
 }
 
 
